@@ -9,10 +9,6 @@ google_analytics_key: G-VXDBQH993Y
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /logo_no_background.png
 description: Coach Candor - Continuous Feedback
-social:
-  name: Hydra Template
-  links:
-    - https://github.com/CloudCannon/hydra-jekyll-template
 
 # -----
 # Build
@@ -24,7 +20,7 @@ collections:
     _hide_content: true
 
 paginate: 10
-paginate_path: "/blog/:num/"
+paginate_path: "/news/:num/"
 permalink: pretty
 
 defaults:
@@ -80,14 +76,7 @@ exclude:
 
 _select_data:
   social_icons:
-    - Facebook
-    - Instagram
     - LinkedIn
-    - Pinterest
-    - Tumblr
-    - Twitter
-    - YouTube
-    - RSS
 
 _comments:
   map: Update the map location and display settings.

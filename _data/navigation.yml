@@ -1,9 +1,13 @@
+- name: Product
+  link: /product/
+  new_window: false
+  highlight: false
 - name: Pricing
   link: /pricing/
   new_window: false
   highlight: false
-- name: Blog
-  link: /blog/
+- name: News
+  link: /news/
   new_window: false
   highlight: false
 - name: About
@@ -13,10 +17,6 @@
 - name: Contact
   link: /contact/
   new_window: false
-  highlight: false
-- name: Login
-  link: /
-  new_window: true
   highlight: false
 - name: Sign Up
   link: /
