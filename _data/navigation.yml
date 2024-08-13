@@ -17,8 +17,4 @@
 - name: Contact
   link: /contact/
   new_window: false
-  highlight: false
-- name: Sign Up
-  link: /
-  new_window: true
   highlight: true
