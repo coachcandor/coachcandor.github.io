@@ -18,7 +18,12 @@
   link: /about/
   new_window: false
   highlight: false
+- name: Docs
+  link: /user-guides/
+  new_window: false
+  highlight: false
 - name: Contact
   link: /contact/
   new_window: false
   highlight: true
+
