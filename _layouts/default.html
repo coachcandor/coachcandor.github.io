@@ -9,9 +9,12 @@
 		{% feed_meta %}
 
 		<link rel="stylesheet" href="{{ site.baseurl }}/css/screen.css">
-		<link rel="stylesheet" href="{{ site.baseurl }}/css/my.css">
+		<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+		<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 		<link rel="icon" type="image/png" href="{{ site.baseurl }}/favicon.png">
-
+		<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+		<script type="text/javascript" src="slick/slick.min.js"></script>
 		{% if jekyll.environment == 'production' and site.google_analytics_key != '' %}
 			<script>
 				window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;

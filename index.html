@@ -8,35 +8,9 @@ description: Enhance employee engagement and performance with automated peer to 
 		<p class="subtext editable">80% of Managers are unhappy with performance cycles at their organization. We can change that.</p>
 		<div class="cta button alt"><a href="{{ site.baseurl }}/contact/">Arrange a Demo</a></div>
 		<div class="imagecarousel">
-			<img src="{{ site.baseurl }}/images/stats.png" class="editable" />
-			<img src="{{ site.baseurl }}/images/how_we_fix_it.png" class="editable" />
-			<img src="{{ site.baseurl }}/images/why_it_works.png" class="editable" />
-		</div>
-	</div>
-
-	<div class="container flex">
-		<div class="text editable">
-			<h2>How <strong>we</strong> work</h2>
-			<p>Using data and insight from collaborative tools, such as Microsoft Teams and Calendars, we identify and
-				capture vital feedback moments. We then place our Generative AI Feedback Coach, supported by our
-				cognitive architecture, between colleagues and generate AI models, enabling us to elicit and coach
-				<strong>great</strong> feedback to help you and your team mates perform.</p>
-		</div>
-		<div class="image">
-			<img src="{{ site.baseurl }}/images/how_we_fix_it.png" class="editable" />
-		</div>
-	</div>
-
-	<div class="container flex">
-		<div class="text editable">
-			<h2><strong>Why</strong> it works</h2>
-			<p>Studies have shown a relationship between frequency of feedback and employee engagement. The more
-				frequent the feedback, the higher the engagement, which can lead to greater discretionary effort,
-				retention and work contributions. Feedback helps us grow, great feedback captured continuously helps us
-				grow more.</p>
-		</div>
-		<div class="image">
-			<img src="{{ site.baseurl }}/images/why_it_works.png" class="editable" />
+			<div><img src="{{ site.baseurl }}/images/stats.png" class="editable" /></div>
+			<div><img src="{{ site.baseurl }}/images/how_we_fix_it.png" class="editable" /></div>
+			<div><img src="{{ site.baseurl }}/images/why_it_works.png" class="editable" /></div>
 		</div>
 	</div>
 </section>
@@ -101,3 +75,7 @@ description: Enhance employee engagement and performance with automated peer to 
 		<div class="button alt"><a href="{{ site.baseurl }}/contact/">Get Started</a></div>
 	</section>
 </div>
+
+<script>
+	$(document).ready(function(){ $('.imagecarousel').slick({ setting-name: setting-value }); });
+</script>
