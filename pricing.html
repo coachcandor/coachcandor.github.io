@@ -1,6 +1,6 @@
 ---
 title: Pricing
-heading: Find the perfect plan for your business
+heading: Plan
 description: All plans include our award winning sales optimization solution to track your sales in real time.
 pricing_table:
   - name: Shared Tenancy
@@ -10,6 +10,8 @@ pricing_table:
         highlight: true
       - text: All Features
         highlight: false
+      - text: Single Sign On
+        highlight: false
       - text: North Europe Shared Data Residency
         highlight: false
     call_to_action:
@@ -18,9 +20,11 @@ pricing_table:
   - name: Dedicated Tenant
     color: "#4a4a4a"
     features:
-      - text: £3 per user/per month
+      - text: £4 per user/per month
         highlight: true
       - text: All Features
+        highlight: false
+      - text: Single Sign On
         highlight: false
       - text: Data Residency Options
         highlight: false
@@ -30,8 +34,10 @@ pricing_table:
 faq:
   - question: Can I change my plan at a later time?
     answer: Yes, you can upgrade and downgrade your plan at anytime.
+  - question: Are there any requirements for a dedicated tenant? 
+    answer: A minimum of 50 licenses are required for a dedicated tenants.
   - question: Questions?
-    answer: Contact us for any further questions at <a href="#">john@business.com</a>.
+    answer: Contact us for any further questions at <a href="#">sebastian.coles@coachcandor.com</a>.
 ---
 <div class="plans">
 	{% for plan in page.pricing_table %}
