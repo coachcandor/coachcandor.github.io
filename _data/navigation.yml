@@ -1,3 +1,7 @@
+- name: About Us
+  link: /
+  new_window: false
+  highlight: false
 - name: Product
   link: /product/
   new_window: false
@@ -10,7 +14,7 @@
   link: /news/
   new_window: false
   highlight: false
-- name: About
+- name: Team
   link: /about/
   new_window: false
   highlight: false
