@@ -9,7 +9,7 @@ description: >-
 	{% for person in site.staff_members %}
 		<li>
 			<div class="square-image"><img style="width:200px" src="{% include relative-src.html src=person.image_path %}" alt="{{ person.name }}"/></div>
-			<div class="name"><a target="_blank" href="https://twitter.com/{{ person.twitter }}">{{ person.name }}</a></div>
+			<div class="name"><a target="_blank" href="{{ person.linkedin }}">{{ person.name }}</a></div>
 			<div class="position">{{ person.position }}</div>
 		</li>
 	{% endfor %}
