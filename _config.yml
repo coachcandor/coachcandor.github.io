@@ -3,7 +3,7 @@
 
 title: Coach Candor
 url: "https://www.coachcandor.com/"
-baseurl:
+baseurl: ""
 google_analytics_key: G-VXDBQH993Y
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
