@@ -2,7 +2,7 @@
 date: 2024-11-06
 title: Minimum Viable Demo!
 categories:
-  - marketing
+  - product
 author_staff_member: seb
 ---
 # 🚀 Minimum Viable Demo!

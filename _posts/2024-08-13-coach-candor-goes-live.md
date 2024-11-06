@@ -2,7 +2,7 @@
 date: 2024-08-13
 title: Coach Candor goes live!
 categories:
-  - product
+  - marketing
 author_staff_member: seb
 ---
 # 🚀 Welcome to Coach Candor: Revolutionizing Feedback and Performance Management!
