@@ -1,6 +1,6 @@
 ---
-date: 2024-08-13
-title: Coach Candor goes live!
+date: 2024-11-06
+title: Minimum Viable Demo!
 categories:
   - marketing
 author_staff_member: seb
