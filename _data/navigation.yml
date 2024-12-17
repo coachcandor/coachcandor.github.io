@@ -1,5 +1,9 @@
-- name: About Us
+- name: About
   link: /
+  new_window: false
+  highlight: false
+- name: Why
+  link: /why/
   new_window: false
   highlight: false
 - name: Product
